@@ -28,7 +28,7 @@ st.write("Grade 10 Digital Well-being Project")
 # Sidebar Controls for Customization
 st.sidebar.header("🔧 Calibration Settings")
 dist_threshold = st.sidebar.slider("Unsafe Distance Threshold (Eye Gap)", 0.05, 0.20, 0.09, step=0.01)
-slouch_threshold = st.sidebar.slider("Slouching Shoulder-Ear Limit", 0.05, 0.20, 0.12, step=0.01)
+slouch_threshold = st.sidebar.slider("Slouching Shoulder-Ear Limit", 0.05, 0.20, 0.12, step=0.01)   
 
 run_app = st.checkbox("▶️ Start Webcam Monitor")
 FRAME_WINDOW = st.image([]) # Placeholder to stream video inside the webpage
