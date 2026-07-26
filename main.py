@@ -192,7 +192,7 @@ class MainWindow(QMainWindow):
         self.image_label.setStyleSheet("border-radius: 12px; border: 2px solid #30363D; background-color: #000000;")
         left_panel.addWidget(self.image_label)
 
-        self.calibrate_btn = QPushButton("🎯 Calibrate Perfect Sitting Posture")
+        self.calibrate_btn = QPushButton("Calibrate Perfect Sitting Posture")
         self.calibrate_btn.clicked.connect(self.trigger_calibration)
         left_panel.addWidget(self.calibrate_btn)
 
