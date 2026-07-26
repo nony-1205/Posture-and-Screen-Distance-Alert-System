@@ -95,8 +95,6 @@ class VideoThread(QThread):
                 ls_x= landmarks[mp_pose.PoseLandmark.LEFT_SHOULDER].x
                 rs_x= landmarks[mp_pose.PoseLandmark.RIGHT_SHOULDER].x
 
-                shoulder_y = (ls_y + rs_y) / 2.0
-
                 slump_angle= math.degrees(math.atan2((ls_y -rs_y),(ls_x - rs_x)))
                 slump_thresh= 10 #degrees
                 
