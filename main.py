@@ -236,7 +236,7 @@ class MainWindow(QMainWindow):
 
     def trigger_calibration(self):
         self.thread.calibrate(self.latest_eye_dist, self.latest_shoulder_y)
-        self.calibrate_btn.setText("✓ Recalibrate Settings Baseline")
+        self.calibrate_btn.setText("Recalibrate Settings Baseline")
 
 
     def resizeEvent(self, event):
