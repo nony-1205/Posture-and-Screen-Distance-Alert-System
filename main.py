@@ -140,7 +140,7 @@ class VideoThread(QThread):
 class MainWindow(QMainWindow):
     def __init__(self):
         super().__init__()
-        self.setWindowTitle("ProPosture Engine v2.0")
+        self.setWindowTitle("ProPosture Engine")
         self.resize(1100, 650)
         
         # current capture metrics for calibration 
