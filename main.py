@@ -33,7 +33,7 @@ class VideoThread(QThread):
         self.SLOUCH_THRESHOLD_OFFSET = 0.06  # Percentage drop allowed
 
         self.bad_posture_start_time = None
-        self.ALERT_DELAY_SECONDS = 2.0 
+        self.ALERT_DELAY_SECONDS = 1.0 
 
     @Slot(float, float)
     def calibrate(self, current_eye_dist, current_shoulder_y):
